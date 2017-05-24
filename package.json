@@ -29,6 +29,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "le_node": "^1.7.0"
+    "le_node": "^1.7.0",
+    "log4js": "^1.1.1"
   }
 }
