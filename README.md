@@ -1,7 +1,9 @@
+## Easy way to send your log to logentries using the log4js module
+
 # Install 
 npm install --save log4js-logentries-appender
 
-#Example use
+# Example use
 
     const Log4js = require('log4js');
 
@@ -19,3 +21,7 @@ npm install --save log4js-logentries-appender
 	logger.warn('my message');
 	logger.error('my message');
 	logger.fatal('my message');
+
+## Todo
+
+Test
