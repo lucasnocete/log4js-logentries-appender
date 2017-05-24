@@ -7,7 +7,7 @@ npm install --save log4js-logentries-appender
 
     Log4js.configure({
         appenders: [
-            { type: 'log4js-logentries-appender', token: 'MyToken' },
+            { type: 'log4js-logentries-appender', token: 'MyToken' }
         ]
     });
 
