@@ -1,6 +1,6 @@
 {
   "name": "log4js-logentries-appender",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Log entries appender for log4js",
   "main": "index.js",
   "homepage": "https://github.com/lucasnocete/log4js-logentries-appender",
@@ -9,7 +9,7 @@
     "url": "https://github.com/lucasnocete/log4js-logentries-appender.git"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4.0"
   },
   "keywords": [
     "node",
