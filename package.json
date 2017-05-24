@@ -1,0 +1,34 @@
+{
+  "name": "log4js-logentries-appender",
+  "version": "0.1.1",
+  "description": "Log entries appender for log4js",
+  "main": "index.js",
+  "homepage": "https://github.com/lucasnocete/log4js-logentries-appender",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasnocete/log4js-logentries-appender.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "node",
+    "logentries",
+    "log4js"
+  ],
+  "author": {
+    "name": "Lucas Nocete",
+    "email": "lucasnocete@hotmail.com"
+  },
+  "license": "MIT",
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "le_node": "^1.7.0"
+  }
+}
