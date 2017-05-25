@@ -10,7 +10,16 @@ const logEntries = (config) => {
             token: config.token
         });
 
-        const send = loggingEvent.level.levelStr.toString().toLowerCase();
+        const toFrom = {
+            info: 'info',
+            error: 'err',
+            warn: 'warning',
+            trace: 'notice',
+            fatal: 'emerg',
+            debug: 'debug'
+        };
+
+        const send = toFrom[loggingEvent.level.levelStr.toString().toLowerCase()];
 
         loggingEvent.data.forEach((logSend) => {
 
